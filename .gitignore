@@ -1,0 +1,32 @@
+node_modules
+.env
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+.vscode/
+
+# Node/React
+node_modules/
+.next/
+build/
+
+# Database
+*.db
+*.sqlite
+
+# Secrets
+*.pem
+*.key
+
+
+# VSCode History
+.history/
+
+
+
+# Virtual environments
+backend/testenv/
+backend/venv/
+.venv1/

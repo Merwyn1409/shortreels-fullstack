@@ -1,0 +1,506 @@
+2025-03-31 23:00:11,403 - INFO - Use pytorch device_name: cpu
+2025-03-31 23:00:11,411 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-31 23:00:11,419 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-31 23:00:12,764 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-03-31 23:00:13,302 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-03-31 23:00:13,602 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-03-31 23:00:13,912 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-03-31 23:00:14,224 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-03-31 23:00:14,462 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-03-31 23:00:14,735 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-03-31 23:00:16,170 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-03-31 23:00:16,784 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6759
+2025-03-31 23:00:17,195 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6759
+2025-03-31 23:00:18,094 - INFO - âœ… Test log: Logging system is working.
+2025-03-31 23:00:18,097 - INFO - ðŸš€ Starting payment_gateway...
+2025-03-31 23:00:18,102 - INFO - ðŸš€ Starting Real-Time Video Processing API...
+2025-03-31 23:00:18,144 - INFO - Ensured all required directories exist.
+2025-03-31 23:10:02,603 - INFO - Use pytorch device_name: cpu
+2025-03-31 23:10:02,650 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-31 23:10:07,325 - INFO - Ensured all required directories exist.
+2025-03-31 23:10:46,500 - ERROR - Processing failed: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\Maggie\Desktop\Shortreels_v2\backend\video_processor.py", line 191, in sync_audio_video
+    video_clips = await process_sentence_videos(sentence_data, word_timestamps, audio_duration)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maggie\Desktop\Shortreels_v2\backend\video_processor.py", line 129, in process_sentence_videos
+    sentence = item["sentence"]
+               ~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2025-03-31 23:15:25,635 - INFO - Use pytorch device_name: cpu
+2025-03-31 23:15:25,635 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-31 23:15:30,431 - INFO - Ensured all required directories exist.
+2025-03-31 23:16:30,858 - ERROR - Processing failed: 'font'
+Traceback (most recent call last):
+  File "C:\Users\Maggie\Desktop\Shortreels_v2\backend\video_processor.py", line 201, in sync_audio_video
+    captions = generate_sentence_captions(sentences, word_timestamps, video_track.size)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maggie\Desktop\Shortreels_v2\backend\video_processor.py", line 91, in generate_sentence_captions
+    font=DEFAULT_THEME["font"],
+         ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'font'
+2025-03-31 23:17:30,160 - INFO - Use pytorch device_name: cpu
+2025-03-31 23:17:30,160 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-31 23:17:35,062 - INFO - Ensured all required directories exist.
+2025-03-31 23:18:13,930 - ERROR - Processing failed: 'font'
+Traceback (most recent call last):
+  File "C:\Users\Maggie\Desktop\Shortreels_v2\backend\video_processor.py", line 201, in sync_audio_video
+    captions = generate_sentence_captions(sentences, word_timestamps, video_track.size)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maggie\Desktop\Shortreels_v2\backend\video_processor.py", line 91, in generate_sentence_captions
+    font=DEFAULT_THEME["font"],
+         ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'font'
+2025-03-31 23:23:36,528 - INFO - Use pytorch device_name: cpu
+2025-03-31 23:23:36,528 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-31 23:23:40,881 - INFO - Ensured all required directories exist.
+2025-03-31 23:27:33,622 - INFO - Use pytorch device_name: cpu
+2025-03-31 23:27:33,622 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-31 23:27:37,630 - INFO - Ensured all required directories exist.
+2025-03-31 23:28:33,479 - WARNING - Failed to create caption for sentence: 'Strong women don’t wait for pe...' - TextClip.__init__() got an unexpected keyword argument 'text'
+2025-03-31 23:28:34,101 - WARNING - Failed to create caption for sentence: 'Every reel is a story of resil...' - TextClip.__init__() got an unexpected keyword argument 'text'
+2025-03-31 23:28:34,151 - WARNING - Failed to create caption for sentence: 'Keep pushing boundaries embrac...' - TextClip.__init__() got an unexpected keyword argument 'text'
+2025-03-31 23:37:26,726 - ERROR - Processing failed: apply_watermark() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\Maggie\Desktop\Shortreels_v2\backend\video_processor.py", line 257, in sync_audio_video
+    watermarked_path = apply_watermark(final_video, request_id, timestamp)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: apply_watermark() takes from 1 to 2 positional arguments but 3 were given
+2025-04-01 17:32:28,580 - INFO - Use pytorch device_name: cpu
+2025-04-01 17:32:28,580 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-01 17:32:33,915 - INFO - Ensured all required directories exist.
+2025-04-01 17:47:14,947 - INFO - Use pytorch device_name: cpu
+2025-04-01 17:47:14,949 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-01 17:47:19,416 - INFO - Ensured all required directories exist.
+2025-04-01 17:47:42,680 - INFO - Use pytorch device_name: cpu
+2025-04-01 17:47:42,681 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-01 17:47:46,483 - INFO - Ensured all required directories exist.
+2025-04-01 17:55:07,924 - INFO - Use pytorch device_name: cpu
+2025-04-01 17:55:07,925 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-01 17:55:12,869 - INFO - Ensured all required directories exist.
+2025-04-01 17:58:53,340 - INFO - Use pytorch device_name: cpu
+2025-04-01 17:58:53,340 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-01 17:58:58,340 - INFO - Ensured all required directories exist.
+2025-04-01 17:59:24,318 - INFO - Use pytorch device_name: cpu
+2025-04-01 17:59:24,318 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-01 17:59:28,941 - INFO - Ensured all required directories exist.
+2025-04-01 19:07:34,805 - INFO - Use pytorch device_name: cpu
+2025-04-01 19:07:34,810 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-01 19:07:39,948 - INFO - Ensured all required directories exist.
+2025-04-01 19:12:40,888 - INFO - Use pytorch device_name: cpu
+2025-04-01 19:12:40,890 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-01 19:12:46,027 - INFO - Ensured all required directories exist.
+2025-04-01 20:02:39,336 - INFO - Use pytorch device_name: cpu
+2025-04-01 20:02:39,341 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-01 20:02:47,057 - INFO - Ensured all required directories exist.
+2025-04-01 20:16:12,752 - INFO - Use pytorch device_name: cpu
+2025-04-01 20:16:12,757 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-01 20:16:17,605 - INFO - Ensured all required directories exist.
+2025-04-01 22:41:58,798 - INFO - Use pytorch device_name: cpu
+2025-04-01 22:41:58,799 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-01 22:42:03,996 - INFO - Ensured all required directories exist.
+2025-04-01 22:44:02,803 - INFO - Use pytorch device_name: cpu
+2025-04-01 22:44:02,806 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-01 22:44:08,674 - INFO - Ensured all required directories exist.
+2025-04-01 22:51:14,243 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-01 22:51:20,774 - INFO - PEXELS API used: 2/200. Remaining: 198
+2025-04-01 23:30:56,492 - INFO - Use pytorch device_name: cpu
+2025-04-01 23:30:56,492 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-01 23:31:00,917 - INFO - Ensured all required directories exist.
+2025-04-01 23:31:13,028 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-01 23:43:00,055 - INFO - Use pytorch device_name: cpu
+2025-04-01 23:43:00,056 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-01 23:43:04,298 - INFO - Ensured all required directories exist.
+2025-04-01 23:44:08,352 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-04 13:49:30,431 - INFO - Use pytorch device_name: cpu
+2025-04-04 13:49:30,486 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-04 13:49:39,344 - INFO - Ensured all required directories exist.
+2025-04-04 14:03:17,972 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-04 14:18:53,484 - INFO - PEXELS API used: 2/200. Remaining: 198
+2025-04-04 14:35:10,254 - INFO - PEXELS API used: 3/200. Remaining: 197
+2025-04-04 15:14:17,183 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-04 15:31:20,334 - INFO - Use pytorch device_name: cpu
+2025-04-04 15:31:20,335 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-04 15:31:25,115 - INFO - Ensured all required directories exist.
+2025-04-04 15:31:56,299 - INFO - Use pytorch device_name: cpu
+2025-04-04 15:31:56,299 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-04 15:32:00,670 - INFO - Ensured all required directories exist.
+2025-04-04 15:32:51,765 - INFO - Use pytorch device_name: cpu
+2025-04-04 15:32:51,765 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-04 15:32:56,035 - INFO - Ensured all required directories exist.
+2025-04-04 15:33:29,386 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-04 16:04:52,957 - INFO - Use pytorch device_name: cpu
+2025-04-04 16:04:52,957 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-04 16:04:57,317 - INFO - Ensured all required directories exist.
+2025-04-04 16:12:45,033 - INFO - Use pytorch device_name: cpu
+2025-04-04 16:12:45,049 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-04 16:12:49,147 - INFO - Ensured all required directories exist.
+2025-04-04 16:14:52,818 - INFO - Use pytorch device_name: cpu
+2025-04-04 16:14:52,820 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-04 16:14:57,249 - INFO - Ensured all required directories exist.
+2025-04-04 16:25:48,777 - INFO - Use pytorch device_name: cpu
+2025-04-04 16:25:48,777 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-04 16:27:28,365 - INFO - Use pytorch device_name: cpu
+2025-04-04 16:27:28,365 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-04 16:27:32,574 - INFO - Ensured all required directories exist.
+2025-04-04 16:32:58,535 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-04 16:40:09,794 - INFO - Use pytorch device_name: cpu
+2025-04-04 16:40:09,794 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-04 16:40:14,306 - INFO - Ensured all required directories exist.
+2025-04-04 17:13:16,261 - INFO - Use pytorch device_name: cpu
+2025-04-04 17:13:16,261 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-04 17:13:22,580 - INFO - Ensured all required directories exist.
+2025-04-04 17:27:30,210 - INFO - Use pytorch device_name: cpu
+2025-04-04 17:27:30,210 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-04 17:27:34,755 - INFO - Ensured all required directories exist.
+2025-04-04 18:21:25,607 - INFO - Use pytorch device_name: cpu
+2025-04-04 18:21:25,607 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-04 18:21:30,518 - INFO - Ensured all required directories exist.
+2025-04-04 18:27:21,813 - INFO - Use pytorch device_name: cpu
+2025-04-04 18:27:21,829 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-04 18:27:26,890 - INFO - Ensured all required directories exist.
+2025-04-04 18:34:32,837 - INFO - Use pytorch device_name: cpu
+2025-04-04 18:34:32,853 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-04 18:34:37,763 - INFO - Ensured all required directories exist.
+2025-04-04 18:38:19,528 - INFO - Use pytorch device_name: cpu
+2025-04-04 18:38:19,528 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-04 18:38:24,063 - INFO - Ensured all required directories exist.
+2025-04-04 18:38:51,151 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-04 18:43:34,502 - INFO - Final video path: C:/Users/Maggie/Desktop/Shortreels_v2/backend/data/output/watermarked_videos\output_055ee00b_1743772154_watermarked.mp4
+2025-04-04 18:43:34,511 - INFO - Video basename: output_055ee00b_1743772154_watermarked.mp4
+2025-04-04 18:43:34,512 - INFO - Generated video URL: /data/output/watermarked_videos/output_055ee00b_1743772154_watermarked.mp4
+2025-04-04 19:54:55,600 - INFO - Use pytorch device_name: cpu
+2025-04-04 19:54:55,602 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-04 20:01:39,479 - INFO - Use pytorch device_name: cpu
+2025-04-04 20:01:39,480 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-04 20:03:30,287 - INFO - Use pytorch device_name: cpu
+2025-04-04 20:03:30,288 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-04 20:04:33,593 - INFO - Use pytorch device_name: cpu
+2025-04-04 20:04:33,593 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-04 20:04:37,747 - INFO - Ensured all required directories exist.
+2025-04-04 20:05:10,613 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-04 20:05:13,063 - INFO - Downloaded new videos for request_id 8dbfad31
+2025-04-04 20:19:37,919 - INFO - Cleaned up files for request_id 8dbfad31
+2025-04-04 20:24:05,912 - INFO - PEXELS API used: 2/200. Remaining: 198
+2025-04-04 20:24:07,746 - INFO - Downloaded new videos for request_id f2383f98
+2025-04-04 20:37:38,215 - INFO - Cleaned up files for request_id f2383f98
+2025-04-04 20:42:22,600 - INFO - PEXELS API used: 3/200. Remaining: 197
+2025-04-04 20:42:26,520 - INFO - Downloaded new videos for request_id 37455240
+2025-04-04 20:55:38,855 - INFO - Cleaned up files for request_id 37455240
+2025-04-04 21:00:01,810 - INFO - PEXELS API used: 4/200. Remaining: 196
+2025-04-04 21:00:05,545 - INFO - Downloaded new videos for request_id caa1d865
+2025-04-04 21:07:26,335 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-04 21:07:35,519 - INFO - Downloaded new videos for request_id cdd1fc0a
+2025-04-04 21:16:01,051 - INFO - Cleaned up files for request_id caa1d865
+2025-04-04 21:19:53,854 - INFO - PEXELS API used: 2/200. Remaining: 198
+2025-04-04 21:19:56,674 - INFO - Downloaded new videos for request_id a8b366fd
+2025-04-04 21:25:02,446 - INFO - Cleaned up files for request_id cdd1fc0a
+2025-04-04 21:38:02,495 - INFO - Cleaned up files for request_id a8b366fd
+2025-04-11 13:27:21,653 - INFO - Use pytorch device_name: cpu
+2025-04-11 13:27:21,657 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-11 13:27:26,918 - INFO - Ensured all required directories exist.
+2025-04-11 13:27:44,706 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-11 13:27:53,805 - INFO - PEXELS API used: 2/200. Remaining: 198
+2025-04-11 13:27:56,029 - INFO - Downloaded new videos for request_id 6b4909f7
+2025-04-11 13:37:48,291 - INFO - Downloaded new videos for request_id 5c2f4100
+2025-04-11 13:44:27,030 - INFO - Cleaned up files for request_id 6b4909f7
+2025-04-11 13:54:27,145 - INFO - Cleaned up files for request_id 5c2f4100
+2025-04-11 13:59:54,425 - INFO - PEXELS API used: 3/200. Remaining: 197
+2025-04-11 13:59:56,672 - INFO - Downloaded new videos for request_id ff60ed0c
+2025-04-11 14:04:12,124 - INFO - Use pytorch device_name: cpu
+2025-04-11 14:04:12,125 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-11 14:04:17,802 - INFO - Ensured all required directories exist.
+2025-04-11 14:06:00,026 - INFO - Use pytorch device_name: cpu
+2025-04-11 14:06:00,026 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-11 14:06:04,996 - INFO - Ensured all required directories exist.
+2025-04-11 14:12:09,072 - INFO - Use pytorch device_name: cpu
+2025-04-11 14:12:09,072 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-11 14:12:13,696 - INFO - Ensured all required directories exist.
+2025-04-11 14:12:40,375 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-11 14:12:41,727 - INFO - Downloaded new videos for request_id e9afd3de
+2025-04-11 14:28:13,824 - INFO - Cleaned up files for request_id e9afd3de
+2025-04-11 14:39:45,091 - INFO - PEXELS API used: 2/200. Remaining: 198
+2025-04-11 14:39:54,763 - INFO - Downloaded new videos for request_id 9ba2d08f
+2025-04-11 14:59:18,999 - INFO - Cleaned up files for request_id 9ba2d08f
+2025-04-11 15:09:10,256 - INFO - PEXELS API used: 3/200. Remaining: 197
+2025-04-11 15:09:12,003 - INFO - Downloaded new videos for request_id 6c656f96
+2025-04-11 15:24:19,112 - INFO - Cleaned up files for request_id 6c656f96
+2025-04-11 15:55:47,620 - INFO - Use pytorch device_name: cpu
+2025-04-11 15:55:47,621 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-11 15:55:52,364 - INFO - Ensured all required directories exist.
+2025-04-11 20:26:10,800 - INFO - Use pytorch device_name: cpu
+2025-04-11 20:26:10,800 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-11 20:26:17,562 - INFO - Ensured all required directories exist.
+2025-04-11 20:26:18,389 - INFO - Downloaded new videos for request_id 862166c7
+2025-04-11 20:32:02,487 - INFO - Received payment details: amount=500 currency='USD' request_id='862166c7'
+2025-04-11 20:32:05,215 - INFO - Order created: order_QHnCvZy9YNnBzi for request_id: 862166c7
+2025-04-11 20:32:11,531 - INFO - Received payment details: amount=500 currency='USD' request_id='862166c7'
+2025-04-11 20:32:11,739 - INFO - Order created: order_QHnD2hWSzHA95U for request_id: 862166c7
+2025-04-11 20:32:27,445 - INFO - Received payment details: amount=500 currency='USD' request_id='862166c7'
+2025-04-11 20:32:27,617 - INFO - Order created: order_QHnDK3mhTILtnR for request_id: 862166c7
+2025-04-11 20:32:59,883 - INFO - Received payment details: amount=500 currency='USD' request_id='862166c7'
+2025-04-11 20:33:00,059 - INFO - Order created: order_QHnDtTP8EHxDJR for request_id: 862166c7
+2025-04-11 20:41:17,632 - INFO - Cleaned up files for request_id 862166c7
+2025-04-11 20:54:27,915 - INFO - Use pytorch device_name: cpu
+2025-04-11 20:54:27,952 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-11 20:54:33,061 - INFO - Ensured all required directories exist.
+2025-04-11 21:08:58,547 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-11 21:09:43,081 - INFO - Downloaded new videos for request_id 137746d9
+2025-04-11 21:22:46,393 - INFO - Use pytorch device_name: cpu
+2025-04-11 21:22:46,395 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-11 21:22:51,295 - INFO - Ensured all required directories exist.
+2025-04-11 21:35:30,487 - INFO - Use pytorch device_name: cpu
+2025-04-11 21:35:30,493 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-11 21:35:35,314 - INFO - Ensured all required directories exist.
+2025-04-11 21:38:57,013 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-11 21:38:58,791 - INFO - Downloaded new videos for request_id 8a2d51a7
+2025-04-11 21:41:46,007 - INFO - Use pytorch device_name: cpu
+2025-04-11 21:41:46,007 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-11 21:41:51,449 - INFO - Ensured all required directories exist.
+2025-04-11 21:43:33,955 - INFO - Use pytorch device_name: cpu
+2025-04-11 21:43:33,959 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-11 21:43:39,110 - INFO - Ensured all required directories exist.
+2025-04-11 21:43:43,824 - INFO - Downloaded new videos for request_id 9d82d752
+2025-04-11 21:56:39,142 - INFO - Cleaned up files for request_id 9d82d752
+2025-04-11 21:58:00,899 - INFO - Use pytorch device_name: cpu
+2025-04-11 21:58:00,900 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-11 21:58:05,530 - INFO - Ensured all required directories exist.
+2025-04-11 21:58:17,105 - INFO - Downloaded new videos for request_id 14d9f121
+2025-04-11 22:10:10,405 - INFO - Use pytorch device_name: cpu
+2025-04-11 22:10:10,408 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-11 22:10:18,077 - INFO - Ensured all required directories exist.
+2025-04-11 22:10:47,120 - INFO - Use pytorch device_name: cpu
+2025-04-11 22:10:47,120 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-11 22:10:53,646 - INFO - Ensured all required directories exist.
+2025-04-11 22:14:24,864 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-11 22:14:31,979 - INFO - Downloaded new videos for request_id 85ee3cc2
+2025-04-11 22:28:04,422 - INFO - Downloaded new videos for request_id 26007417
+2025-04-11 22:29:53,722 - INFO - Cleaned up files for request_id 85ee3cc2
+2025-04-11 22:42:17,970 - INFO - Use pytorch device_name: cpu
+2025-04-11 22:42:17,970 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-11 22:42:22,157 - INFO - Ensured all required directories exist.
+2025-04-11 22:43:22,269 - INFO - Downloaded new videos for request_id 57d57c58
+2025-04-11 22:49:49,294 - INFO - Downloaded new videos for request_id 347cfeff
+2025-04-11 22:54:02,297 - INFO - Use pytorch device_name: cpu
+2025-04-11 22:54:02,297 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-11 22:54:06,082 - INFO - Ensured all required directories exist.
+2025-04-11 23:09:41,050 - INFO - Use pytorch device_name: cpu
+2025-04-11 23:09:41,050 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-11 23:09:44,489 - INFO - Ensured all required directories exist.
+2025-04-11 23:10:14,600 - INFO - Downloaded new videos for request_id f221df30
+2025-04-11 23:11:55,477 - ERROR - Processing failed: Attribute 'duration' not set
+Traceback (most recent call last):
+  File "C:\Users\Maggie\Desktop\Shortreels_v2\backend\video_processor.py", line 266, in sync_audio_video
+    await asyncio.to_thread(
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<decorator-gen-55>", line 2, in write_videofile
+  File "C:\Users\Maggie\Desktop\Shortreels_v2\backend\venv\Lib\site-packages\moviepy\decorators.py", line 52, in requires_duration
+    raise ValueError("Attribute 'duration' not set")
+ValueError: Attribute 'duration' not set
+2025-04-11 23:11:57,763 - ERROR - Error processing request f221df30: Attribute 'duration' not set
+Traceback (most recent call last):
+  File "C:\Users\Maggie\Desktop\Shortreels_v2\backend\main.py", line 310, in generate_video
+    result = await sync_audio_video(media_data, request.text, request_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maggie\Desktop\Shortreels_v2\backend\video_processor.py", line 266, in sync_audio_video
+    await asyncio.to_thread(
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<decorator-gen-55>", line 2, in write_videofile
+  File "C:\Users\Maggie\Desktop\Shortreels_v2\backend\venv\Lib\site-packages\moviepy\decorators.py", line 52, in requires_duration
+    raise ValueError("Attribute 'duration' not set")
+ValueError: Attribute 'duration' not set
+2025-04-11 23:22:44,561 - INFO - Cleaned up files for request_id f221df30
+2025-04-11 23:29:35,607 - INFO - Use pytorch device_name: cpu
+2025-04-11 23:29:35,611 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-11 23:29:40,254 - INFO - Ensured all required directories exist.
+2025-04-11 23:33:19,451 - INFO - Downloaded new videos for request_id e4fcd8d5
+2025-04-11 23:47:40,411 - INFO - Cleaned up files for request_id e4fcd8d5
+2025-04-12 11:56:50,645 - INFO - Use pytorch device_name: cpu
+2025-04-12 11:56:50,645 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 11:57:07,331 - INFO - Ensured all required directories exist.
+2025-04-12 11:57:37,043 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-12 11:57:41,665 - INFO - PEXELS API used: 2/200. Remaining: 198
+2025-04-12 11:57:43,915 - INFO - Downloaded new videos for request_id 8b154083
+2025-04-12 12:18:13,301 - INFO - Cleaned up files for request_id 8b154083
+2025-04-12 12:44:57,551 - INFO - Use pytorch device_name: cpu
+2025-04-12 12:44:57,552 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 12:45:01,826 - INFO - Ensured all required directories exist.
+2025-04-12 12:54:59,969 - INFO - Downloaded new videos for request_id 4e260270
+2025-04-12 12:59:28,180 - INFO - Use pytorch device_name: cpu
+2025-04-12 12:59:28,180 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 12:59:32,226 - INFO - Ensured all required directories exist.
+2025-04-12 13:00:00,156 - INFO - Downloaded new videos for request_id 8ba41d29
+2025-04-12 13:16:32,313 - INFO - Cleaned up files for request_id 8ba41d29
+2025-04-12 13:26:41,446 - INFO - Use pytorch device_name: cpu
+2025-04-12 13:26:41,446 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 13:26:45,334 - INFO - Ensured all required directories exist.
+2025-04-12 13:34:02,074 - INFO - Use pytorch device_name: cpu
+2025-04-12 13:34:02,076 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 13:34:06,046 - INFO - Ensured all required directories exist.
+2025-04-12 13:34:07,956 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-12 13:34:23,006 - INFO - Downloaded new videos for request_id 72aa1555
+2025-04-12 13:51:06,249 - INFO - Cleaned up files for request_id 72aa1555
+2025-04-12 13:58:41,787 - INFO - Use pytorch device_name: cpu
+2025-04-12 13:58:41,789 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 13:58:47,151 - INFO - Ensured all required directories exist.
+2025-04-12 13:58:51,980 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-12 13:59:02,493 - INFO - Downloaded new videos for request_id 8159a1fd
+2025-04-12 14:03:03,911 - INFO - Updated progress for 8159a1fd: {'status': 'completed', 'start_time': 1744446529.9796991, 'text': 'Happiness is a choice of life.', 'progress': 100, 'current_step': 'finalizing', 'step_start_time': 1744446783.9118505, 'estimated_total_time': 253.93215131759644, 'end_time': 1744446783.9118505, 'video_url': '/data/output/watermarked_videos/output_8159a1fd_1744446553_watermarked.mp4', 'filename': 'output_8159a1fd_1744446553_watermarked.mp4'}
+2025-04-12 14:13:47,244 - INFO - Cleaned up files for request_id 8159a1fd
+2025-04-12 14:20:12,045 - INFO - Use pytorch device_name: cpu
+2025-04-12 14:20:12,046 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 14:20:16,479 - INFO - Ensured all required directories exist.
+2025-04-12 14:26:22,248 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-12 14:26:27,110 - INFO - Downloaded new videos for request_id 4b417052
+2025-04-12 14:30:07,113 - INFO - Updated progress for 4b417052: {'status': 'completed', 'start_time': 1744448179.6398094, 'text': 'This is my happy place.', 'progress': 100, 'current_step': 'finalizing', 'step_start_time': 1744448407.0980449, 'estimated_total_time': 227.47385454177856, 'end_time': 1744448407.113664, 'video_url': '/data/output/watermarked_videos/output_4b417052_1744448196_watermarked.mp4', 'filename': 'output_4b417052_1744448196_watermarked.mp4'}
+2025-04-12 14:40:16,626 - INFO - Cleaned up files for request_id 4b417052
+2025-04-12 15:01:26,919 - INFO - Use pytorch device_name: cpu
+2025-04-12 15:01:26,924 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 15:01:33,131 - INFO - Ensured all required directories exist.
+2025-04-12 15:03:33,608 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-12 15:03:42,163 - INFO - PEXELS API used: 2/200. Remaining: 198
+2025-04-12 15:03:43,229 - INFO - Downloaded new videos for request_id a90fff7d
+2025-04-12 15:21:32,519 - INFO - Updated progress for a90fff7d: {'status': 'completed', 'start_time': 1744450411.4489, 'text': 'Stay away from those people who try to disparage your ambitions. Small minds will always do that, but great minds will give you a feeling that you can become great too.', 'progress': 100, 'current_step': 'finalizing', 'step_start_time': 1744451492.5144618, 'estimated_total_time': 1081.0696876049042, 'end_time': 1744451492.5185876, 'video_url': '/data/output/watermarked_videos/output_a90fff7d_1744450450_watermarked.mp4', 'filename': 'output_a90fff7d_1744450450_watermarked.mp4'}
+2025-04-12 15:22:13,123 - INFO - Use pytorch device_name: cpu
+2025-04-12 15:22:13,123 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 15:22:18,993 - INFO - Ensured all required directories exist.
+2025-04-12 15:24:00,740 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-12 15:24:02,285 - INFO - Downloaded new videos for request_id ec0dd50d
+2025-04-12 15:33:21,817 - WARNING - C:\Users\Maggie\Desktop\Shortreels_v2\backend\venv\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file C:/Users/Maggie/Desktop/Shortreels_v2/backend/data/cached_api_videos\motivational_quotes_9dec7ceb.mp4, 6220800 bytes wanted but 0 bytes read,at frame 352/354, at time 11.75/11.80 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-04-12 15:36:49,069 - INFO - Use pytorch device_name: cpu
+2025-04-12 15:36:49,070 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 15:36:55,206 - INFO - Ensured all required directories exist.
+2025-04-12 15:37:15,438 - INFO - Use pytorch device_name: cpu
+2025-04-12 15:37:15,438 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 15:37:20,270 - INFO - Ensured all required directories exist.
+2025-04-12 15:47:28,759 - INFO - Downloaded new videos for request_id 222ee514
+2025-04-12 15:57:10,905 - INFO - Updated progress for 222ee514: {'status': 'completed', 'start_time': 1744453047.7671611, 'text': 'Stay away from those people who try to disparage your ambitions.', 'progress': 100, 'current_step': 'finalizing', 'step_start_time': 1744453630.898336, 'estimated_total_time': 583.1344566345215, 'end_time': 1744453630.9016178, 'video_url': '/data/output/watermarked_videos/output_222ee514_1744453061_watermarked.mp4', 'filename': 'output_222ee514_1744453061_watermarked.mp4'}
+2025-04-12 15:58:54,355 - INFO - Cleaned up files for request_id 222ee514
+2025-04-12 16:07:20,482 - INFO - Cleaned up files for request_id 222ee514
+2025-04-12 17:22:41,830 - INFO - Use pytorch device_name: cpu
+2025-04-12 17:22:41,831 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 17:22:48,289 - INFO - Ensured all required directories exist.
+2025-04-12 17:28:52,157 - INFO - Use pytorch device_name: cpu
+2025-04-12 17:28:52,157 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 17:28:55,990 - INFO - Ensured all required directories exist.
+2025-04-12 17:33:01,992 - INFO - Use pytorch device_name: cpu
+2025-04-12 17:33:01,992 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 17:33:05,693 - INFO - Ensured all required directories exist.
+2025-04-12 17:38:43,837 - INFO - Use pytorch device_name: cpu
+2025-04-12 17:38:43,837 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 17:38:47,774 - INFO - Ensured all required directories exist.
+2025-04-12 18:29:17,863 - INFO - Use pytorch device_name: cpu
+2025-04-12 18:29:17,889 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 18:29:25,709 - INFO - Ensured all required directories exist.
+2025-04-12 18:29:50,812 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-12 18:29:55,323 - INFO - PEXELS API used: 2/200. Remaining: 198
+2025-04-12 18:30:07,438 - INFO - Downloaded new videos for request_id ab00eb3e
+2025-04-12 18:35:13,607 - ERROR - Error processing request ab00eb3e: cannot access local variable 'video_url' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Maggie\Desktop\Shortreels_v2\backend\main.py", line 377, in generate_video
+    "progress": 100,
+                ^^^
+UnboundLocalError: cannot access local variable 'video_url' where it is not associated with a value
+2025-04-12 18:45:26,051 - INFO - Cleaned up files for request_id ab00eb3e
+2025-04-12 18:48:56,423 - INFO - Use pytorch device_name: cpu
+2025-04-12 18:48:56,423 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 18:49:00,849 - INFO - Ensured all required directories exist.
+2025-04-12 18:49:37,845 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-12 18:49:43,627 - INFO - PEXELS API used: 2/200. Remaining: 198
+2025-04-12 18:49:52,343 - INFO - PEXELS API used: 3/200. Remaining: 197
+2025-04-12 18:49:52,976 - INFO - Downloaded new videos for request_id 6af1f358
+2025-04-12 18:58:48,057 - INFO - Updated progress for 6af1f358: {'status': 'completed', 'start_time': 1744463974.5595124, 'text': 'You learn more from failure than from success. Don’t let it stop you. Failure builds character.', 'progress': 100, 'current_step': 'processing_video', 'step_start_time': 1744463996.4807818, 'estimated_total_time': 553.4974989891052, 'end_time': 1744464528.0570114, 'video_url': '/data/output/watermarked_videos/output_6af1f358_1744464026_watermarked.mp4', 'filename': 'output_6af1f358_1744464026_watermarked.mp4'}
+2025-04-12 19:06:17,145 - INFO - Cleaned up files for request_id 6af1f358
+2025-04-12 19:09:26,408 - INFO - Cleaned up files for request_id 6af1f358
+2025-04-12 22:01:03,969 - INFO - Use pytorch device_name: cpu
+2025-04-12 22:01:03,971 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 22:01:11,089 - INFO - Ensured all required directories exist.
+2025-04-12 22:02:31,464 - INFO - Use pytorch device_name: cpu
+2025-04-12 22:02:31,464 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 22:02:35,803 - INFO - Ensured all required directories exist.
+2025-04-12 22:08:32,965 - INFO - Use pytorch device_name: cpu
+2025-04-12 22:08:32,965 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 22:08:36,637 - INFO - Ensured all required directories exist.
+2025-04-12 22:09:20,700 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-12 22:09:32,265 - INFO - Downloaded new videos for request_id 1b5198e2
+2025-04-12 22:14:32,750 - INFO - Updated progress for 1b5198e2: {'status': 'completed', 'start_time': 1744475956.5367355, 'text': 'Don’t let yesterday take up too much of today.', 'progress': 100, 'current_step': 'processing_video', 'step_start_time': 1744475976.0123234, 'estimated_total_time': 316.2136981487274, 'end_time': 1744476272.7504337, 'video_url': '/data/output/watermarked_videos/output_1b5198e2_1744475991_watermarked.mp4', 'filename': 'output_1b5198e2_1744475991_watermarked.mp4'}
+2025-04-12 22:50:49,008 - INFO - Use pytorch device_name: cpu
+2025-04-12 22:50:49,008 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 22:50:54,417 - INFO - Ensured all required directories exist.
+2025-04-12 23:02:16,244 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-12 23:02:19,299 - INFO - Downloaded new videos for request_id ad10565a
+2025-04-12 23:17:54,519 - INFO - Cleaned up files for request_id ad10565a
+2025-04-12 23:31:29,130 - INFO - Use pytorch device_name: cpu
+2025-04-12 23:31:29,130 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 23:31:33,355 - INFO - Ensured all required directories exist.
+2025-04-12 23:32:43,997 - INFO - Use pytorch device_name: cpu
+2025-04-12 23:32:43,997 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 23:32:49,150 - INFO - Ensured all required directories exist.
+2025-04-12 23:35:57,061 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-12 23:36:00,934 - INFO - Downloaded new videos for request_id 8071d54f
+2025-04-12 23:43:50,260 - INFO - Use pytorch device_name: cpu
+2025-04-12 23:43:50,262 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 23:43:54,744 - INFO - Ensured all required directories exist.
+2025-04-12 23:48:24,253 - INFO - Use pytorch device_name: cpu
+2025-04-12 23:48:24,253 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 23:48:28,017 - INFO - Ensured all required directories exist.
+2025-04-12 23:48:46,752 - INFO - Use pytorch device_name: cpu
+2025-04-12 23:48:46,752 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-12 23:48:50,178 - INFO - Ensured all required directories exist.
+2025-04-12 23:49:53,231 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-12 23:49:56,559 - INFO - Downloaded new videos for request_id d2522e39
+2025-04-12 23:57:30,512 - INFO - PIXABAY API used: 1/200. Remaining: 199
+2025-04-12 23:57:33,353 - INFO - PEXELS API used: 2/200. Remaining: 198
+2025-04-12 23:57:35,255 - INFO - Downloaded new videos for request_id 1970fb04
+2025-04-13 00:04:51,894 - INFO - Cleaned up files for request_id d2522e39
+2025-04-13 10:48:36,890 - INFO - Use pytorch device_name: cpu
+2025-04-13 10:48:36,891 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-13 10:48:43,728 - INFO - Ensured all required directories exist.
+2025-04-13 11:30:43,358 - INFO - Use pytorch device_name: cpu
+2025-04-13 11:30:43,358 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-13 11:30:48,809 - INFO - Ensured all required directories exist.
+2025-04-13 11:31:23,617 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-13 11:31:26,737 - INFO - PEXELS API used: 2/200. Remaining: 198
+2025-04-13 11:31:30,282 - INFO - PEXELS API used: 3/200. Remaining: 197
+2025-04-13 11:31:33,091 - INFO - Downloaded new videos for request_id 7d0aba75
+2025-04-13 11:55:02,032 - INFO - Cleaned up files for request_id 7d0aba75
+2025-04-13 14:32:42,398 - INFO - Use pytorch device_name: cpu
+2025-04-13 14:32:42,399 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-13 14:32:48,069 - INFO - Ensured all required directories exist.
+2025-04-13 14:33:23,405 - INFO - Use pytorch device_name: cpu
+2025-04-13 14:33:23,411 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-13 14:33:29,362 - INFO - Ensured all required directories exist.
+2025-04-14 12:49:02,226 - INFO - Use pytorch device_name: cpu
+2025-04-14 12:49:02,228 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-14 12:49:10,514 - INFO - Ensured all required directories exist.
+2025-04-14 12:49:24,249 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-14 12:49:31,030 - INFO - Downloaded new videos for request_id ad197e95
+2025-04-15 14:37:18,511 - INFO - Use pytorch device_name: cpu
+2025-04-15 14:37:18,511 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-15 14:37:23,705 - INFO - Ensured all required directories exist.
+2025-04-15 14:45:26,366 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-15 14:45:37,343 - INFO - Downloaded new videos for request_id c79e1998
+2025-04-15 14:59:25,831 - INFO - Cleaned up files for request_id c79e1998
+2025-04-22 21:28:11,563 - INFO - Use pytorch device_name: cpu
+2025-04-22 21:28:11,563 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-22 21:28:17,463 - INFO - Ensured all required directories exist.
+2025-04-22 21:29:05,215 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-22 21:29:13,932 - INFO - Downloaded new videos for request_id bfb050b7
+2025-04-23 23:04:23,000 - INFO - Use pytorch device_name: cpu
+2025-04-23 23:04:23,003 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-23 23:04:29,566 - INFO - Ensured all required directories exist.
+2025-04-23 23:04:36,570 - INFO - PEXELS API used: 1/200. Remaining: 199
+2025-04-23 23:04:38,041 - INFO - Downloaded new videos for request_id 00cd4a89
+2025-04-23 23:18:29,609 - INFO - Cleaned up files for request_id 00cd4a89
