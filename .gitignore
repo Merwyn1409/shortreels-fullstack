@@ -1,3 +1,12 @@
+backend/app/model_cache/
+*.mp4
+*.wav
+*.mov
+*.avi
+backend/data/output/
+backend/data/audio_output/
+backend/data/video_cache/
+backend/data/cached_api_videos/
 venv/
 __pycache__/
 *.pyc
@@ -5,10 +14,3 @@ __pycache__/
 *.log
 node_modules/
 .env
-*.mp4
-backend/data/output/
-backend/data/audio_output/
-backend/data/video_cache/
-backend/data/cached_api_videos/
-backend/data/output/non_watermarked_videos
-backend/data/output/watermarked_videos
