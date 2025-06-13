@@ -1,4 +1,6 @@
 backend/app/model_cache/
+backend/app/model_cache
+/home/ubuntu/shortreels_v2/backend/app/model_cache
 *.mp4
 *.wav
 *.mov
