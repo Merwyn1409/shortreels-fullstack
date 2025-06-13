@@ -621,3 +621,6 @@ def cleanup_request_tracking(request_id: str):
     if request_id in request_video_tracking:
         logger.info(f"[{request_id}] Cleaning up video tracking")
         del request_video_tracking[request_id]
+
+
+#Testing        
