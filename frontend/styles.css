@@ -57,14 +57,44 @@ video {
   pointer-events: auto;
 }
 
-/* Progress bar */
+/* Progress bars */
 #progress-container {
-  @apply w-full bg-gray-200 rounded-full h-2.5;
+    @apply space-y-4 w-full;
 }
 
-#progress-bar {
-  @apply bg-blue-600 h-2.5 rounded-full;
-  transition: width 0.5s cubic-bezier(0.65, 0, 0.35, 1);
+#queue-progress-container,
+#processing-progress-container {
+    @apply w-full;
+}
+
+#queue-progress-bar {
+    @apply bg-yellow-500 h-2.5 rounded-full transition-all duration-500;
+}
+
+#processing-progress-bar {
+    @apply bg-blue-600 h-2.5 rounded-full transition-all duration-500;
+}
+
+.progress-bar-container {
+    @apply w-full bg-gray-200 rounded-full h-2.5 mb-1;
+}
+
+.progress-status {
+    @apply flex justify-between mb-1;
+}
+
+.progress-status span {
+    @apply text-sm font-medium text-gray-700;
+}
+
+/* Queue specific styles */
+#queue-progress-container .progress-status span {
+    @apply text-yellow-700;
+}
+
+/* Processing specific styles */
+#processing-progress-container .progress-status span {
+    @apply text-blue-700;
 }
 
 /* Animations */

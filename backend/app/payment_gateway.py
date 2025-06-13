@@ -1,7 +1,7 @@
 import razorpay
 import logging
 import sys
-from config import RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET
+from .config import RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET,payment_log_FILE
 import traceback
 
 # Initialize Razorpay client
@@ -9,12 +9,11 @@ client = razorpay.Client(auth=(RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET))
 
 
 
-LOG_FILE = "payment_gateway.log"
 logging.basicConfig(
     level=logging.DEBUG,
     format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
-        logging.FileHandler(LOG_FILE, mode='w', encoding="utf-8"),
+        logging.FileHandler(payment_log_FILE, mode='w', encoding="utf-8"),
         logging.StreamHandler()
     ]
 )

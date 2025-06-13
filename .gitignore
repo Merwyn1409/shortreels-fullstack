@@ -1,32 +1,14 @@
-node_modules
-.env
-# Python
 venv/
 __pycache__/
 *.pyc
-.env
-.vscode/
-
-# Node/React
+*.pyo
+*.log
 node_modules/
-.next/
-build/
-
-# Database
-*.db
-*.sqlite
-
-# Secrets
-*.pem
-*.key
-
-
-# VSCode History
-.history/
-
-
-
-# Virtual environments
-backend/testenv/
-backend/venv/
-.venv1/
+.env
+*.mp4
+backend/data/output/
+backend/data/audio_output/
+backend/data/video_cache/
+backend/data/cached_api_videos/
+backend/data/output/non_watermarked_videos
+backend/data/output/watermarked_videos

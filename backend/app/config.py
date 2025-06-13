@@ -1,16 +1,26 @@
+# app/config.py
+from pathlib import Path
+
+# API Keys (in production, use environment variables)
 PEXELS_API_KEY = "ecJ3GPFZp3vt8BiscBxJ6xQQUKyJ7xIXebwu0QXd6zH4Al0sl9IdgOlg"
 PIXABAY_API_KEY = "48860221-d1f16e06946f2226732d87b3c"
-RAZORPAY_KEY_ID = "rzp_test_dMOX57nk18T2ab"
-RAZORPAY_KEY_SECRET = "P6v1X4xqu58D5T2eHxZOh8Wg"
-# Directory paths
-OUTPUT_DIR_AUDIO = "C:/Users/Maggie/Desktop/Shortreels_v2/backend/data/audio_output"  # Path for storing audio files
-VIDEO_CACHE_DIR = "C:/Users/Maggie/Desktop/Shortreels_v2/backend/data/cached_api_videos"
-FINAL_VIDEO_DIR = "C:/Users/Maggie/Desktop/Shortreels_v2/backend/data/output/final_videos"
-WATERMARKED_VIDEO_DIR = "C:/Users/Maggie/Desktop/Shortreels_v2/backend/data/output/watermarked_videos"
-NON_WATERMARKED_VIDEO_DIR = "C:/Users/Maggie/Desktop/Shortreels_v2/backend/data/output/non_watermarked_videos"
-WATERMARK_PATH="public/watermark.png"
-# Define paths for watermarked and non-watermarked videos
+RAZORPAY_KEY_ID = "rzp_live_erRPPpeEm5is9P"
+RAZORPAY_KEY_SECRET = "EGePCCBhykI0vzoZmEWEEAdy"
 
+# Directory paths (relative to backend folder)
+BASE_DIR = Path(__file__).parent.parent
+OUTPUT_DIR_AUDIO = BASE_DIR / "data/audio_output"
+VIDEO_CACHE_DIR = BASE_DIR / "data/cached_api_videos" 
+WATERMARKED_VIDEO_DIR = BASE_DIR / "data/output/watermarked_videos"
+NON_WATERMARKED_VIDEO_DIR = BASE_DIR / "data/output/non_watermarked_videos"
+WATERMARK_PATH = BASE_DIR / "public/watermark.png"
+
+# Log files
+LOG_DIR = BASE_DIR / "logs"
+API_log_FILE = LOG_DIR / "api_usage.log"
+payment_log_FILE = LOG_DIR / "payment_gateway.log" 
+video_process_log_FILE = LOG_DIR / "video_process.log"
+main_log_FILE = LOG_DIR / "main.log"
 
 # config.py
 THEME_CONFIG = {
@@ -65,4 +75,24 @@ THEME_CONFIG = {
     }
 }
 
+
+MODERN_CAPTION_STYLE = {
+    "font": "Roboto-Black",            # Extra bold, filled-in font
+    "fontsize": 100,                   # Large for bold impact
+    "color": "#FFFFFF",               # White fill
+    "stroke_color": "#000000",        # Black outline
+    "stroke_width": 6,                 # Thick outline
+    "bg_color": None,
+    "position": ("center", 0.6),
+    "method": "caption",
+    "align": "center",
+    "size": (1080, None),
+    "kerning": 4,
+    "interline": -10,
+    "transparency": 1.0,
+    "shadow": False,
+    "shadow_color": None,
+    "shadow_offset": None,
+    "shadow_blur": None
+}
 
